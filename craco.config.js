@@ -6,7 +6,9 @@ module.exports = {
   plugins: [
     {
       plugin: CracoAliasPlugin,
-      options: {},
+      options: {
+        baseUrl:".",
+      },
     },
   ],
 };
