@@ -1,7 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
-import { roundOffValue } from '@utils/converters';
-import Icon from '@components/Icon';
+import { roundOffValue } from '../../shared/utils/converters';
+import Icon from '../Icon';
 
 interface WeatherIconTextProps {
   value: string | number;

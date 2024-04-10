@@ -2,7 +2,7 @@ import {
   GET_WEATHER_DATA,
   GET_WEATHER_DATA_FAILURE,
   GET_WEATHER_DATA_SUCCESS,
-} from '@state/action-types/weather';
+} from '../action-types/weather';
 import weatherReducer, { INITIAL_STATE } from './weather';
 
 describe('weather - reducer', () => {

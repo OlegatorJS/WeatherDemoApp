@@ -1,8 +1,8 @@
 /** @jsxImportSource @emotion/react */
 import React from 'react';
 import Skycons, { SkyconsType } from 'react-skycons';
-import Temperature from '@components/WeatherReport/Temperature';
 import { css } from '@emotion/react';
+import Temperature from './Temperature';
 
 interface WeatherAnimationProps {
   color: string;
